@@ -45,6 +45,8 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+<!--        Knife4j 提供 更加丰富 易于使用的APi使用文档-->
+<!--        Swagger + OpenAPI -->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>

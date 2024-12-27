@@ -5,7 +5,9 @@ import com.platform.entity.Photographer;
 import com.platform.mapper.PhotographerMapper;
 import com.platform.service.PhotographerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PhotographerServiceImpl implements PhotographerService {
 
     @Autowired

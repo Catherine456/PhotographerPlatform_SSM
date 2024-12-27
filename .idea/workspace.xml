@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dcb6158-30d6-4b80-a470-07c5d4e04577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/controller/PhotographerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/dto/PhotographerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/entity/Photographer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/mapper/PhotographerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/service/PhotographerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/service/impl/PhotographerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="1dcb6158-30d6-4b80-a470-07c5d4e04577" name="Changes" comment="创建项目木">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platform/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/mapper/PhotographerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/mapper/PhotographerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platform/service/impl/PhotographerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platform/service/impl/PhotographerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +40,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "Spring Boot.Main.executor": "Run",
+    "Spring Boot.Unnamed.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/MyProject/PhotographerPlatform_SSM",
     "node.js.detected.package.eslint": "true",
@@ -68,6 +64,15 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="PhotographerPlatform_SSM" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.platform.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,11 +92,24 @@
       <workItem from="1734700855480" duration="1946000" />
       <workItem from="1735132222467" duration="954000" />
       <workItem from="1735193997709" duration="7034000" />
-      <workItem from="1735289742457" duration="4585000" />
+      <workItem from="1735289742457" duration="9723000" />
     </task>
+    <task id="LOCAL-00001" summary="创建项目木">
+      <option name="closed" value="true" />
+      <created>1735298493979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735298493979</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建项目木" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建项目木" />
   </component>
 </project>
